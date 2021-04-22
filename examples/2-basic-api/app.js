@@ -6,6 +6,7 @@ const fetchData = async () => {
     const products = data
       .map((product) => {
         const {
+          id,
           image: { url },
           name,
           price,
