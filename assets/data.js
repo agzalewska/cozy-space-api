@@ -1,4 +1,4 @@
-[
+const items = [
   {
     id: 'recZkNf2kwmdBcqd0',
     name: 'accent chair',
@@ -294,3 +294,5 @@
     shipping: true,
   },
 ];
+
+module.exports = items;
